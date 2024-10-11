@@ -1,0 +1,35 @@
+{
+    "name": "job-matching-app",
+    "version": "1.0.0",
+    "description": "Real-time AI-powered job matching platform",
+    "main": "src/index.js",
+   "scripts": {
+    "dev": "react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+},
+
+    "dependencies": {
+        "@material-ui/core": "^4.12.4",
+        "axios": "^1.7.7",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^5.3.4",
+        "react-scripts": "^3.0.1",
+        "socket.io-client": "^4.8.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
